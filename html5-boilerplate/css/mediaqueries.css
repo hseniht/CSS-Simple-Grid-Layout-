@@ -11,6 +11,14 @@
     width: 960px;
     margin: 0 auto;
   }
+
+  .menu.navbar-container {
+      
+
+      float: none;
+      display: flex;
+      justify-content: center;
+  }
 }
 
 /*tablet*/
@@ -33,6 +41,17 @@
    .container {
      font-size: 14px;
    }
+
+   .menu.navbar-container {
+       /* width: 960px;
+       margin: 0px auto;
+       float: none; */
+
+
+       float: none;
+       display: flex;
+       justify-content: space-evenly;
+   }
 }
 
 
@@ -48,6 +67,12 @@
   }
   .container {
     font-size: 12px;
+  }
+
+  .menu.navbar-container {
+
+      flex-direction: column;
+
   }
 }
 
