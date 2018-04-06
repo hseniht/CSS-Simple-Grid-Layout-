@@ -1,0 +1,69 @@
+
+/* ==========================================================================
+   Media Queries custom styles
+   ========================================================================== */
+
+
+
+/*tablet*/
+@media only screen and (min-width: 961px) {
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+/*tablet*/
+@media only screen and (max-width: 960px) {
+   .wrapper {
+     width: calc(100% - 67px);
+   }
+
+   .col.span_1_of_3.span_one_full{
+     width: 100%;
+   }
+
+   .col.span_1_of_3.span_one_second.left{
+     width: 49.2%;
+     margin: 1% 0;
+   }
+   .col.span_1_of_3.span_one_second{
+     width: 49.2%;
+   }
+   .container {
+     font-size: 14px;
+   }
+}
+
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+
+  .col.span_1_of_3.span_one_second.left{
+    width: 100%;
+
+  }
+  .col.span_1_of_3.span_one_second{
+    width: 100%;
+  }
+  .container {
+    font-size: 12px;
+  }
+}
+
+
+/*bootstrap ver*/
+ /* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
